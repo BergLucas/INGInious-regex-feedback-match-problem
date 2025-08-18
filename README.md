@@ -1,6 +1,6 @@
 # INGInious-regex-feedback-match-problem
 
-INGInious-regex-feedback-match-problem is a plugin for INGInious to add the RegexFeedbackMatchProblem.
+INGInious-regex-feedback-match-problem is a plugin for INGInious that adds the RegexFeedbackMatchProblem.
 
 - **Downloads page:** https://github.com/BergLucas/INGInious-regex-feedback-match-problem/releases
 
