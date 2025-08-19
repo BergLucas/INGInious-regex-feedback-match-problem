@@ -114,7 +114,7 @@ class RegexFeedbackMatchProblem(Problem):
             regex: str = data["regex"]
 
             if re.match(regex, task_input[self.get_id()]) is not None:
-                valid: bool = "valid" in data
+                valid: bool = data["valid"]
                 feedback: list[str] | None = (  # type: ignore
                     [feedback] if (feedback := data["feedback"]) else None
                 )
